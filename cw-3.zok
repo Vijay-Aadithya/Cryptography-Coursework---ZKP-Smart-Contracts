@@ -1,0 +1,5 @@
+def main(field a, field b, field c, private field x, private field y) -> bool {
+    field y1 = a*x**4 + b*x**3 + c*x**2 + 9;
+    bool rtn = if y1 == y { true } else { false };
+    return rtn;
+}
